@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#main {margin-right: 120px}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+  hr{
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+    }
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('G.jpg');
+  min-height: 100%;
+  opacity: 0.9;
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">German <span class="w3-hide-small">Steel</span> 
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+ 
+    <b> <h2 class="w3-text-black" style="text-align: right;">:عن الشركة</h2></b>
+<hr style=" width:200px text-align: right; " class="w3-opacity">
+	   <p>  <h3  style="text-align: right;"> مرحبا بكم في جيرمان ستيل لتجارة واستيراد الاستانلس </p>  </h3>
+	   <p>  <h3  style="text-align: right;"> يوجد لدينا جميع انواع الخامات 304 , 316 , 201 , 430</p>  </h3>
+	   <p>  <h3  style="text-align: right;"> لدينا جميع المقاسات من الالواح والبكر مط , مصنفر , لامع , ديكور  </p>  </h3>
+	   <p>  <h3  style="text-align: right;"> استيراد من الاتحاد الاوروبي (المانيا - بلجيكا ) </p>  </h3>
+  
+    <b> <h2 class="w3-text-black" style="text-align: right;">:ما يميزنا</h2></b>
+<hr style=" width:200px text-align: right; " class="w3-opacity">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+ 
+ 
+   
+      <img src="png.png" class="w3-round w3-image  w3-hover-opacity-off" alt="ستانلس ستيل" width="300" height="250">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+       <p>  <h3  style="text-align: right;"> يوجد ماكينة صنفرة و غلاف  </p>  </h3>
+	   <p>  <h3  style="text-align: right;">يوجد جميع مقاسات الاستانلس ستيل</p>  </h3>
+	   <p>  <h3  style="text-align: right;"> يوجد صنفرة سكوتش</p>  </h3>
+	   <p>  <h3  style="text-align: right;"> يوجد مسدس تحليل للخامات </p>  </h3>
+  
+  </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+ <b> <h2 class="w3-text-black" style="text-align: right;">:صورنا</h2></b>
+<hr style=" width:200px text-align: right; " class="w3-opacity">
+
+
+
+ <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+
+
+  <div class="w3-third">
+    <img src="l.jpeg" style="width:100%">
+    <img src="l4.jpeg" style="width:100%">
+<img src="l9.jpeg" style="width:100%">
+<img src="l12.jpeg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+	  
+   <img src="l2.jpeg" style="width:100%">
+    <img src="l5.jpeg" style="width:100%">
+<img src="l11.jpeg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+ <img src="l3.jpeg" style="width:100%">
+ <img src="l6.jpeg" style="width:100%">
+
+<img src="l10.jpeg" style="width:100%">
+  </div>
+</div>
+
+  
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+
+
+ <b> <h2 class="w3-text-black" style="text-align: right;">:تواصل معنا</h2></b>
+<hr style=" width:200px text-align: right; " class="w3-opacity">
+
+    <div class="w3-section">
+ <p><i class="fa fa-user fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> ادارة محمد شعلان</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> شارع مطبعة الهلال -مدينة السلام -القاهرة</p>
+      <p><i class="fa fa-phone fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> رقم التليفون: 01007036489</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right"> </i> Email : Germansteel.com</p>
+
+      
+
+
+    
+</div><br>
+  <i class="fa fa-facebook-official w3-margin-right w3-xlarge " ></i> <a href="https://www.facebook.com/people/German-Steel/100057565714760/" target="_blank" class="w3-xlarge">صفحة الفيسبوك </a>
+
+  </div>
+  <i class="fa fa-paper-plane w3-margin-right w3-xlarge fa-fw" ></i> <a href="Germansteel.com" target="_blank" class="w3-xlarge">  اتصل بنا </a>
+
+ 
+
+</div>
+
+</body>
+</html>
